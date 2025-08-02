@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+
+	width: 100%;
+	height: 100%;
+	background-image: ;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url('pix.png');
+    
+
+    background-size:cover;
+    background-attachment: fixed;
+
+
+}
+
+
+.navbar{
+	margin-right: 10px;
+	margin-left: 10px;
+    margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.logo{
+     width: 100px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+.list{
+    
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap:30%;
+	font-weight: 600;
+	list-style:  none;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+.list li a{
+
+	color:rgb(242, 216, 24);
+	text-decoration: none;
+
+}
+
+
+
+.btn button{
+	border:none;
+	margin: 0px 10px 0px 0px;
+    padding: 10px 25px;
+	cursor: pointer;
+	background-color: #f44616;
+	color:white;
+	font-size: 15px;
+	font-weight: 700;
+	}
+
+button:hover{
+
+	background-color: white;
+	color:black;
+}
+
+.herosection{
+
+	max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+ 
+}
+
+.herosection h1{
+    
+	text-align:center;
+	font-size: 80px;
+	font-weight: 400px;
+	color:rgb(242, 216, 24);
+}
+
+.herosection-btn button{
+     
+     margin-top: 20px;
+    cursor: pointer;
+    border:none;
+    background-color:#f44616; 
+    color:white;
+	padding: 15px 40px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.herosection-img img{
+
+	position:absolute;
+	bottom: 40px;
+	right:40px;
+	
+}
